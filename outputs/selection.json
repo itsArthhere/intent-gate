@@ -1,0 +1,68 @@
+{
+  "selected_model": "word_char_lr",
+  "selection_split": "val + oos_val",
+  "objective": "Maximize validation correctly routed in-scope fraction subject to empirical OOS false accepts <= 5%.",
+  "threshold_acceptance": "score >= threshold",
+  "models": {
+    "word_lr": {
+      "fit_seconds": 20.995509499975014,
+      "policy": {
+        "threshold": 0.6680662683209527,
+        "oos_false_accept_rate": 0.05,
+        "correct_route_rate": 0.6916666666666667,
+        "in_scope_coverage": 0.701
+      },
+      "validation": {
+        "intent_accuracy": 0.9053333333333333,
+        "intent_macro_f1": 0.9050957020248448,
+        "oos_auroc": 0.9095816666666667,
+        "in_scope_coverage": 0.701,
+        "selective_accuracy": 0.9866856871136471,
+        "correct_route_rate": 0.6916666666666667,
+        "oos_false_accept_rate": 0.05,
+        "mixed_coverage": 0.68,
+        "mixed_selective_accuracy": 0.9843453510436433
+      }
+    },
+    "word_char_lr": {
+      "fit_seconds": 22.770570199994836,
+      "policy": {
+        "threshold": 0.7473129252085283,
+        "oos_false_accept_rate": 0.05,
+        "correct_route_rate": 0.7326666666666667,
+        "in_scope_coverage": 0.7403333333333333
+      },
+      "validation": {
+        "intent_accuracy": 0.922,
+        "intent_macro_f1": 0.9216966939811603,
+        "oos_auroc": 0.9498033333333332,
+        "in_scope_coverage": 0.7403333333333333,
+        "selective_accuracy": 0.989644304367402,
+        "correct_route_rate": 0.7326666666666667,
+        "oos_false_accept_rate": 0.05,
+        "mixed_coverage": 0.7180645161290322,
+        "mixed_selective_accuracy": 0.9874213836477987
+      }
+    },
+    "calibrated_svm": {
+      "fit_seconds": 2.5276076000300236,
+      "policy": {
+        "threshold": 0.8629605852856864,
+        "oos_false_accept_rate": 0.05,
+        "correct_route_rate": 0.584,
+        "in_scope_coverage": 0.5873333333333334
+      },
+      "validation": {
+        "intent_accuracy": 0.905,
+        "intent_macro_f1": 0.9046079840922452,
+        "oos_auroc": 0.9059583333333333,
+        "in_scope_coverage": 0.5873333333333334,
+        "selective_accuracy": 0.9943246311010215,
+        "correct_route_rate": 0.584,
+        "oos_false_accept_rate": 0.05,
+        "mixed_coverage": 0.57,
+        "mixed_selective_accuracy": 0.9915110356536503
+      }
+    }
+  }
+}

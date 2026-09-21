@@ -1,0 +1,84 @@
+{
+  "splits": {
+    "oos_val": {
+      "rows": 100,
+      "classes": 1,
+      "class_min": 100,
+      "class_max": 100,
+      "exact_duplicate_rows": 0,
+      "normalized_duplicate_rows": 0,
+      "empty_texts": 0,
+      "word_count_mean": 7.16
+    },
+    "val": {
+      "rows": 3000,
+      "classes": 150,
+      "class_min": 20,
+      "class_max": 20,
+      "exact_duplicate_rows": 0,
+      "normalized_duplicate_rows": 0,
+      "empty_texts": 0,
+      "word_count_mean": 8.319333333333333
+    },
+    "train": {
+      "rows": 15000,
+      "classes": 150,
+      "class_min": 100,
+      "class_max": 100,
+      "exact_duplicate_rows": 0,
+      "normalized_duplicate_rows": 0,
+      "empty_texts": 0,
+      "word_count_mean": 8.3392
+    },
+    "oos_test": {
+      "rows": 1000,
+      "classes": 1,
+      "class_min": 1000,
+      "class_max": 1000,
+      "exact_duplicate_rows": 0,
+      "normalized_duplicate_rows": 0,
+      "empty_texts": 0,
+      "word_count_mean": 8.746
+    },
+    "test": {
+      "rows": 4500,
+      "classes": 150,
+      "class_min": 30,
+      "class_max": 30,
+      "exact_duplicate_rows": 0,
+      "normalized_duplicate_rows": 0,
+      "empty_texts": 0,
+      "word_count_mean": 8.19111111111111
+    },
+    "oos_train": {
+      "rows": 100,
+      "classes": 1,
+      "class_min": 100,
+      "class_max": 100,
+      "exact_duplicate_rows": 0,
+      "normalized_duplicate_rows": 0,
+      "empty_texts": 0,
+      "word_count_mean": 7.06
+    }
+  },
+  "cross_split_normalized_overlap": {
+    "oos_val:val": 0,
+    "oos_val:train": 0,
+    "oos_val:oos_test": 0,
+    "oos_val:test": 0,
+    "oos_val:oos_train": 0,
+    "val:train": 3,
+    "val:oos_test": 0,
+    "val:test": 0,
+    "val:oos_train": 0,
+    "train:oos_test": 0,
+    "train:test": 2,
+    "train:oos_train": 0,
+    "oos_test:test": 0,
+    "oos_test:oos_train": 0,
+    "test:oos_train": 0
+  },
+  "conflicting_normalized_texts": 4,
+  "normalization": "Unicode casefold and collapse whitespace; punctuation retained",
+  "protocol": "Official splits retained, overlaps reported, no test-based training filtering."
+}

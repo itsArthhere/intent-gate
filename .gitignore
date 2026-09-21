@@ -1,0 +1,9 @@
+data/raw/
+models/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+*.log

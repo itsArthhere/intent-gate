@@ -1,0 +1,51 @@
+model,split,text,true_label,predicted_label,confidence,accepted
+word_char_lr,oos_test,ignore call,oos,make_call,0.998910286437268,True
+word_char_lr,oos_test,read text,oos,text,0.9986541848437207,True
+word_char_lr,oos_test,give me the weather forecast for today,oos,weather,0.9967701183465936,True
+word_char_lr,oos_test,deny incoming phone call,oos,make_call,0.99300400867986,True
+word_char_lr,oos_test,read my friend's text message,oos,text,0.9882361648922067,True
+word_char_lr,oos_test,look up the conversion rate for the euro to dollar exchange,oos,exchange_rate,0.9871024542433456,True
+word_char_lr,test,that checks out,yes,order_checks,0.9856867994028398,True
+word_char_lr,test,have i added my doctor's appointment to my calendar,calendar,calendar_update,0.9827098316235116,True
+word_char_lr,oos_test,how long should an essay be,oos,cook_time,0.9823228179092393,True
+word_char_lr,test,how much have i spent on my debit card this month,transactions,spending_history,0.978340090926119,True
+word_char_lr,oos_test,accept incoming phone call,oos,make_call,0.9747589861056027,True
+word_char_lr,test,repeat what the weather will be like,transfer,weather,0.9733866992016572,True
+word_char_lr,test,when will my new credit card arrive,expiration_date,replacement_card_duration,0.9719943221060398,True
+word_char_lr,test,what have i spent things on,transactions,spending_history,0.9714941388591732,True
+word_char_lr,test,is the marathon on friday added to my calendar,calendar,calendar_update,0.9695129613541031,True
+word_char_lr,test,give me a recipe for tacos,ingredients_list,recipe,0.9657684385090519,True
+word_char_lr,oos_test,how many calories does doing 20 situps burn,oos,calories,0.9648499866924908,True
+word_char_lr,oos_test,what other countries speak the english language,oos,change_language,0.9631782826580135,True
+word_char_lr,test,what time is it in phoenix,timezone,time,0.9600083593453045,True
+word_char_lr,test,what is my current location,share_location,current_location,0.9552718042247115,True
+word_char_lr,oos_test,can you order some ointment for me,oos,order,0.9543177442166358,True
+word_char_lr,oos_test,please read the text message i just received,oos,text,0.9519098230237841,True
+word_char_lr,test,have i told you to add washing dishes to my todo list,todo_list,todo_list_update,0.9512097660700565,True
+word_char_lr,test,show what i have spent things on,transactions,spending_history,0.9481720354056052,True
+word_char_lr,oos_test,go and check the fridge,oos,food_last,0.9433093159439055,True
+word_char_lr,test,how can i claim my rewards for my visa card,redeem_rewards,rewards_balance,0.9398458616055312,True
+word_char_lr,oos_test,check the status of my amazon orders for me,oos,order_status,0.9275259259814344,True
+word_char_lr,oos_test,how many calories does jumping up and down burn,oos,calories,0.9271153032364928,True
+word_char_lr,test,who controls you,who_do_you_work_for,who_made_you,0.9267200802414258,True
+word_char_lr,test,i need milk on my shopping list,shopping_list_update,shopping_list,0.9238343335048407,True
+word_char_lr,oos_test,please read me the last text message i received,oos,text,0.9234731370177561,True
+word_char_lr,test,where would i get my rewards for my master card,redeem_rewards,rewards_balance,0.9232968422922628,True
+word_char_lr,test,can i get a table for four at 8:00,how_busy,restaurant_reservation,0.9221686810093551,True
+word_char_lr,test,how can i get my rewards for my master card,redeem_rewards,rewards_balance,0.9194160178264269,True
+word_char_lr,oos_test,can i use direct deposit for my tax refund,oos,direct_deposit,0.9069279827052457,True
+word_char_lr,oos_test,what's the current prevailing interest rate for mortgages in my area,oos,interest_rate,0.9066431515251246,True
+word_char_lr,oos_test,what is global warming,oos,calculator,0.9026912311902515,True
+word_char_lr,test,what's the apr on my savings account,interest_rate,apr,0.8995489366963959,True
+word_char_lr,test,did you put carrots on the shopping list,shopping_list,shopping_list_update,0.8801941572911901,True
+word_char_lr,test,"thanks for your help, goodbye!",goodbye,thank_you,0.8718442485668133,True
+word_char_lr,oos_test,give me a suggestion for roofers,oos,meal_suggestion,0.8675449333373011,True
+word_char_lr,oos_test,how long do i have to wait to get my refund,oos,how_busy,0.8640003887269899,True
+word_char_lr,oos_test,what time did i get the last text message i received,oos,text,0.8630872220840221,True
+word_char_lr,test,vacation request information,pto_request,pto_request_status,0.8627428048044272,True
+word_char_lr,test,what's a good recipe foe tacos,ingredients_list,recipe,0.8581289483788276,True
+word_char_lr,test,put on my 90s playlist,play_music,update_playlist,0.8575939455825623,True
+word_char_lr,test,what are the steps to get my rewards for my visa card,redeem_rewards,rewards_balance,0.8575135728735372,True
+word_char_lr,test,"did i add ""cleaning the foyer"" to my todo list yet",todo_list,todo_list_update,0.8556761780645917,True
+word_char_lr,oos_test,how much should i tip on this bill,oos,bill_balance,0.8548234565964284,True
+word_char_lr,test,can you set a reminder alarm for me to workout,reminder_update,alarm,0.852762479757676,True

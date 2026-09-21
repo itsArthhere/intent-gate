@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/clinc/oos-eval",
+  "commit": "828f8093932c8fe6ca7936c3d2e52903b1c523de",
+  "data_url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/data/data_full.json",
+  "license_url": "https://raw.githubusercontent.com/clinc/oos-eval/828f8093932c8fe6ca7936c3d2e52903b1c523de/LICENSE",
+  "license": "CC BY 3.0",
+  "sha256": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0"
+}

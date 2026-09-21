@@ -1,0 +1,111 @@
+{
+  "selected_model": "word_char_lr",
+  "seed": 42,
+  "python": "3.11.15",
+  "sklearn": "1.9.0",
+  "numpy": "2.4.6",
+  "models": {
+    "word_lr": {
+      "fit_seconds": 20.995509499975014,
+      "policy": {
+        "threshold": 0.6680662683209527,
+        "oos_false_accept_rate": 0.05,
+        "correct_route_rate": 0.6916666666666667,
+        "in_scope_coverage": 0.701
+      },
+      "validation": {
+        "intent_accuracy": 0.9053333333333333,
+        "intent_macro_f1": 0.9050957020248448,
+        "oos_auroc": 0.9095816666666667,
+        "in_scope_coverage": 0.701,
+        "selective_accuracy": 0.9866856871136471,
+        "correct_route_rate": 0.6916666666666667,
+        "oos_false_accept_rate": 0.05,
+        "mixed_coverage": 0.68,
+        "mixed_selective_accuracy": 0.9843453510436433
+      },
+      "test": {
+        "intent_accuracy": 0.9102222222222223,
+        "intent_macro_f1": 0.9095325189887788,
+        "oos_auroc": 0.9243028888888888,
+        "in_scope_coverage": 0.7177777777777777,
+        "selective_accuracy": 0.9820433436532507,
+        "correct_route_rate": 0.7048888888888889,
+        "oos_false_accept_rate": 0.049,
+        "mixed_coverage": 0.5961818181818181,
+        "mixed_selective_accuracy": 0.9673681000304971,
+        "batch_ms_per_utterance": 0.007817200009918049,
+        "nonoverlap_intent_accuracy": 0.9104046242774566,
+        "nonoverlap_test_rows": 4498
+      }
+    },
+    "word_char_lr": {
+      "fit_seconds": 22.770570199994836,
+      "policy": {
+        "threshold": 0.7473129252085283,
+        "oos_false_accept_rate": 0.05,
+        "correct_route_rate": 0.7326666666666667,
+        "in_scope_coverage": 0.7403333333333333
+      },
+      "validation": {
+        "intent_accuracy": 0.922,
+        "intent_macro_f1": 0.9216966939811603,
+        "oos_auroc": 0.9498033333333332,
+        "in_scope_coverage": 0.7403333333333333,
+        "selective_accuracy": 0.989644304367402,
+        "correct_route_rate": 0.7326666666666667,
+        "oos_false_accept_rate": 0.05,
+        "mixed_coverage": 0.7180645161290322,
+        "mixed_selective_accuracy": 0.9874213836477987
+      },
+      "test": {
+        "intent_accuracy": 0.9235555555555556,
+        "intent_macro_f1": 0.9227495594966928,
+        "oos_auroc": 0.9496897777777779,
+        "in_scope_coverage": 0.7608888888888888,
+        "selective_accuracy": 0.9871495327102804,
+        "correct_route_rate": 0.7511111111111111,
+        "oos_false_accept_rate": 0.04,
+        "mixed_coverage": 0.6298181818181818,
+        "mixed_selective_accuracy": 0.9757505773672055,
+        "batch_ms_per_utterance": 0.031312355551765196,
+        "nonoverlap_intent_accuracy": 0.9237438861716318,
+        "nonoverlap_test_rows": 4498
+      }
+    },
+    "calibrated_svm": {
+      "fit_seconds": 2.5276076000300236,
+      "policy": {
+        "threshold": 0.8629605852856864,
+        "oos_false_accept_rate": 0.05,
+        "correct_route_rate": 0.584,
+        "in_scope_coverage": 0.5873333333333334
+      },
+      "validation": {
+        "intent_accuracy": 0.905,
+        "intent_macro_f1": 0.9046079840922452,
+        "oos_auroc": 0.9059583333333333,
+        "in_scope_coverage": 0.5873333333333334,
+        "selective_accuracy": 0.9943246311010215,
+        "correct_route_rate": 0.584,
+        "oos_false_accept_rate": 0.05,
+        "mixed_coverage": 0.57,
+        "mixed_selective_accuracy": 0.9915110356536503
+      },
+      "test": {
+        "intent_accuracy": 0.9093333333333333,
+        "intent_macro_f1": 0.9084101284970655,
+        "oos_auroc": 0.9184942222222222,
+        "in_scope_coverage": 0.5877777777777777,
+        "selective_accuracy": 0.9924385633270322,
+        "correct_route_rate": 0.5833333333333334,
+        "oos_false_accept_rate": 0.04,
+        "mixed_coverage": 0.48818181818181816,
+        "mixed_selective_accuracy": 0.9776536312849162,
+        "batch_ms_per_utterance": 0.04264995555341657,
+        "nonoverlap_intent_accuracy": 0.9095153401511783,
+        "nonoverlap_test_rows": 4498
+      }
+    }
+  }
+}
