@@ -15,7 +15,7 @@ class Router:
             raise ValueError('Enter 1–2000 characters of nonempty text.')
         model=self.artifact['model']
         p=model.predict_proba([text])[0]
-        ranked=np.argsort(p)[::-1][:3]
+        ranked=np.argsort(-p, kind='stable')[:3]
         confidence=float(p[ranked[0]])
         accepted=confidence>=self.artifact['threshold']
         return {'decision':'route' if accepted else 'abstain',
